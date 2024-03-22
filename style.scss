@@ -35,6 +35,8 @@ body {
 }
 
 
+/*Forside*/
+
 /*Banner*/
 .container01 {
     background-color: #4D6141;
@@ -247,4 +249,44 @@ li a:hover {
 .footer {
     background-color: #4D6141;
     z-index: -1;
+}
+
+
+/*Træning*/
+
+.container01-2 {
+    background-color: #4D6141;
+    height: 375px;
+    position: absolute;
+    left: 0%;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+}
+
+.yellow-box {
+    background-color: #EBE854;
+    height: 200px;
+    position: absolute;
+    left: 0%;
+    top: 170px;
+    width: 100%;
+    z-index: -1;
+}
+
+.yellow-txt-box {
+    position: relative;
+    text-align: center;
+    top: 20%;
+}
+
+.yellow-txt-1 {
+    font-family: 'Bitter SemiBold';
+    font-size: 36px;
+    margin: 10px;
+}
+
+.yellow-txt-2 {
+    font-family: 'Bitter Medium';
+    font-size: 20px;
 }
