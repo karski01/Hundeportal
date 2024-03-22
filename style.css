@@ -1,1 +1,37 @@
-/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+  font-family: "Bespoke Slab Regular", serif;
+  src: url(fonts/BespokeSerif-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Bespoke Slab Bold", serif;
+  src: url(fonts/BespokeSerif-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Bitter Regular";
+  src: url(fonts/Bitter-Regular.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Bitter Medium";
+  src: url(fonts/Bitter-Medium.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Bitter SemiBold";
+  src: url(fonts/Bitter-SemiBold.ttf) format("truetype");
+}
+/*Header*/
+.header01 {
+  background-color: #4D6141;
+  opacity: 85%;
+  height: 80px;
+  position: absolute;
+  left: 0%;
+  top: 0;
+  width: 100%;
+  z-index: -1;
+}/*# sourceMappingURL=style.css.map */
