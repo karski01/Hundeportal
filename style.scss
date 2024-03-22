@@ -4,6 +4,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+body {
+    background-color: white;
+}
+
+
 @font-face {
     font-family: 'Bespoke Slab Regular', serif;
     src: url(fonts/BespokeSerif-Regular.ttf) format('truetype');
@@ -30,14 +35,216 @@
 }
 
 
-/*Header*/
-.header01 {
+/*Banner*/
+.container01 {
     background-color: #4D6141;
-    opacity: 85%;
-    height: 80px;
+    height: 550px;
     position: absolute;
     left: 0%;
     top: 0;
     width: 100%;
+    z-index: -1;
+}
+
+.quote-txt {
+    font-family: 'Bespoke Slab Regular';
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    position: relative;
+    top: 3%;
+}
+
+.fa-magnifying-glass {
+    color: white;
+    font-size: 16px;
+    position: absolute;
+    right: 8%;
+    top: 4%;
+}
+
+.mag-txt {
+    font-family: 'Bespoke Slab Regular';
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    right: 5%;
+    top: 3%;
+}
+
+/*Header*/
+
+.container02 {
+    background-color: white;
+    height: 105px;
+    position: absolute;
+    left: 0;
+    top: 60px;
+    width: 100%;
+    z-index: -1;
+}
+
+.logo {
+    max-width: 25vw;
+    position: absolute;
+    top: -50%;
+}
+
+.button-text {
+    font-family: 'Bespoke Slab Regular';
+    font-size: 24px;
+    color: black;
+    text-decoration: none;
+    position: relative;
+    top: 10%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #EBE854;
+}
+
+/*Header*/
+
+.banner {
+    max-width: 100%;
+    position: relative;
+    top: 110px;
+    z-index: -1;
+}
+
+.banner-txt {
+    position: relative;
+    text-align: left;
+    top: 40%;
+}
+
+.btxt1 {
+    font-family: 'Bitter SemiBold';
+    font-size: 24px;
+}
+
+.btxt2 {
+    font-family: 'Bitter SemiBold';
+    font-size: 32px;
+}
+
+.btxt3 {
+    font-family: 'Bitter Medium';
+    font-size: 20px;
+}
+
+.news-box {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    max-width: 80%;
+    top: 50px;
+    height: 600px;
+    position: relative;
+    background-color: #D9D9D9;
+    flex-direction: column;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.news-title {
+    font-family: 'Bitter SemiBold';
+    font-size: 32px;
+    margin: 20px;
+}
+
+.news-img {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+}
+
+.news-title-txt {
+    font-family: 'Bitter SemiBold';
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
+}
+
+.news-txt {
+    font-family: 'Bitter Medium';
+    font-size: 18px;
+    text-align: center;
+}
+
+.contact-box {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    top: 50px;
+    height: 600px;
+    position: relative;
+    flex-direction: column;
+}
+
+.contact-img {
+    max-width: 90%;
+    margin: 50px;
+}
+
+.contact-title-txt {
+    font-family: 'Bitter SemiBold';
+    font-size: 36px;
+    text-align: center;
+}
+
+.contact-txt {
+    font-family: 'Bitter Medium';
+    font-size: 20px;
+    text-align: center;
+}
+
+.boxed-contact {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex-direction: row;
+}
+
+.boxed-contact-txt {
+    width: 180px;
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+    font-family: 'Bitter SemiBold';
+    font-size: 24px;
+    text-align: center;
+}
+
+/*Footer*/
+
+.footer {
+    background-color: #4D6141;
     z-index: -1;
 }
