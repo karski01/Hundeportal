@@ -142,7 +142,8 @@ li a:hover {
 .banner-txt {
     position: relative;
     text-align: left;
-    top: 40%;
+    top: -200px;
+    padding-left: 10px;
 }
 
 .btxt1 {
@@ -153,11 +154,14 @@ li a:hover {
 .btxt2 {
     font-family: 'Bitter SemiBold';
     font-size: 32px;
+    margin-top: 1rem;
 }
 
 .btxt3 {
     font-family: 'Bitter Medium';
     font-size: 20px;
+    margin-top: 1rem;
+    max-width: 40%;
 }
 
 .news-box {
@@ -206,13 +210,13 @@ li a:hover {
     text-align: center;
 }
 
+/*Contact*/
+
 .contact-box {
     margin: auto;
     display: flex;
     align-items: center;
-    top: 50px;
-    height: 600px;
-    position: relative;
+    margin-top: 50px;
     flex-direction: column;
 }
 
@@ -221,14 +225,19 @@ li a:hover {
     margin: 50px;
 }
 
+.contact-stuff {
+    position: relative;
+    top: -330px;
+}
+
 .contact-title-txt {
-    font-family: 'Bitter SemiBold';
+    font-family: "Bitter SemiBold";
     font-size: 36px;
     text-align: center;
 }
 
 .contact-txt {
-    font-family: 'Bitter Medium';
+    font-family: "Bitter Medium";
     font-size: 20px;
     text-align: center;
 }
@@ -237,37 +246,52 @@ li a:hover {
     margin: auto;
     display: flex;
     justify-content: center;
-    position: relative;
     flex-direction: row;
 }
 
 .boxed-contact-txt {
-    width: 180px;
+    width: 170px;
     border: 2px solid black;
     padding: 20px;
     margin: 20px;
-    font-family: 'Bitter SemiBold';
+    font-family: "Bitter SemiBold";
     font-size: 24px;
     text-align: center;
 }
 
 /*Footer*/
-
 .footer {
     background-color: #4D6141;
-    z-index: -1;
+    z-index: 5;
+    width: 100%;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-text2 {
+    font-family: 'Bespoke Slab Regular';
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+    top: 10%;
 }
 
 
 /*Træning*/
-/*banner*/
+/*Træning*/
+/*Træning*/
 
 .container01-2 {
     background-color: #4D6141;
-    height: 375px;
-    position: absolute;
-    left: 0%;
-    top: 0;
+    height: 160px;
+    padding-top: 8px;
     width: 100%;
     z-index: -1;
 }
@@ -299,21 +323,57 @@ li a:hover {
     font-size: 20px;
 }
 
+/*intro*/
+
+.page-intro {
+    position: relative;
+    text-align: center;
+    top: 240px;
+}
+
+.intro-title {
+    font-family: 'Bitter SemiBold';
+    font-size: 32px;
+    margin: 10px;
+}
+
+.intro-txt {
+    font-family: 'Bitter Medium';
+    font-size: 20px;
+}
+
 /*grid*/
 
-.row {
+.grid-items {
+    padding: 15px;
+}
+
+.grid-images {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 280px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.col-img {
+    max-width: 70%;
+    margin: auto;
     display: flex;
-    flex-wrap: wrap;
-    padding: 0 4px;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
 }
 
-/* Create two equal columns that sits next to each other */
-.column {
-    flex: 50%;
-    padding: 0 4px;
+.col-title-txt {
+    font-family: 'Bitter SemiBold';
+    font-size: 20px;
+    text-align: center;
+    margin: 10px;
 }
 
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
+.col-txt {
+    font-family: 'Bitter Regular';
+    font-size: 20px;
+    text-align: center;
 }
